@@ -10,7 +10,7 @@ apiKey = "c50ff6de77c94df7bfc95351251909"
 
 async function fetchData() {
   try {
-    const response = await fetch('http://api.weatherapi.com/v1/current.json?key='+apiKey+'&q=Lagos&aqi=no'); // Replace with your API endpoint
+    const response = await fetch('https://api.weatherapi.com/v1/current.json?key='+apiKey+'&q=Lagos&aqi=no'); // Replace with your API endpoint
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -62,4 +62,5 @@ function setData(){
 }
 
 fetchData();
+
 setData();
