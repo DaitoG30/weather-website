@@ -1,0 +1,133 @@
+.navDiv {
+    display: inline;
+    justify-content: center;
+}
+
+html{
+    height: fit-content;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #A8F1FF, #FFD970);
+}
+
+body{ 
+    padding: 40px;
+}
+
+
+div{
+    align-self: center;
+    justify-content: center;
+    justify-self: center;
+}
+
+p{
+    padding: 0%;
+    margin: 0%;
+}
+
+.Menu{
+    border: #4ed6f191;
+    border-width: 40px;
+    position:fixed;
+    backdrop-filter: blur(20px);
+    display: flex;
+    z-index: 9999;
+    justify-content: center;
+    background-color: #4ed6f127;
+    border-radius: 40px;
+    width: 535px;
+    height: 80px;
+    left: 50%;
+    right: 50%;
+    margin: 0px;
+    align-items: center; 
+}
+
+.textNormal{
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    opacity: 100%;
+    margin: 30px;
+    color:#000942;
+    font-size: 32px;
+    font-family: "CustomFonts";
+    overflow-wrap: break-word;
+}
+
+ul{
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+}
+
+.panel{
+    display: flex;
+    backdrop-filter: blur(10px);
+    background-color: #4ed6f127;
+    border-radius: 40px;
+    width: auto;
+    height: 100%;
+    min-height: 100%;
+    padding: 30px;
+    margin: 30px;
+}
+.container{
+    justify-content: center;
+    padding: 40px;
+    margin: 40px;
+}
+
+.CurrrentImage{
+    position: relative;
+    width: 270PX;
+    height: 175px;
+    object-fit:cover;
+}
+
+.TempText{
+    text-align: center;
+    opacity: 100%;
+    color:#000942;
+    font-size: 128px;
+    margin: 40px;
+    font-family: "CustomFonts";
+}
+
+.CityText{
+    text-align: center;
+    opacity: 100%;
+    color:#000942;
+    font-size: 32px;
+    margin-bottom: 125px;
+    font-family: "CustomFonts";
+}
+
+.navFont {
+    text-align: center;
+    opacity: 100%;
+    color:#000942;
+    padding: 0%;
+    margin: 20px;
+    font-family: "CustomFonts";
+}
+
+.data{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+@font-face {
+  font-family: CustomFonts;
+  src: url(Itim-Regular.woff);
+}
+
+@media (max-width: 375) {
+    .data{
+        
+    }
+    .Menu{
+        background-color: black;
+    }
+}
